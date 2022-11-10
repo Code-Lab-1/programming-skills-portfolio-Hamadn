@@ -1,0 +1,15 @@
+student = {"Name" : "Hamad", "Age" : "18" , "Gender": "Male" , "Class" : "Year 1" , "Nationality" : "Pakistani", "Email": "nhamad919@gmail.com"}
+print(student)
+print(student.keys())
+print(student.values())
+print(student.items())
+print(student["Name"])
+student["Age"]= "20"
+print(student)
+student.update({"BloodGroup": "A+" })
+print(student)
+student.pop("Nationality")
+print(student)
+student.popitem()
+print(student)
+len(student)
