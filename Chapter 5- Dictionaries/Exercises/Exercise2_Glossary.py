@@ -1,3 +1,4 @@
+# Creating a dictionary and assigning it a variable(glossary)
 glossary = {
     "String": "A series of characters.",
     "Variable": "A variable is a location that stores temporary data within a program which can be modified, store and display whenever need.",
@@ -7,7 +8,8 @@ glossary = {
     }
 
 
-
+# Declaring the same variable and changing its value for every key:value pair in the dictionary
+# Printing the key and value using concatenation between key,value and string
 word = "String"
 print(word + " : " + glossary[word] + "\n")
 

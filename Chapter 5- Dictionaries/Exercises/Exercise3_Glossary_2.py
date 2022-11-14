@@ -1,3 +1,4 @@
+# Creating a dictionary and assigning it a variable(glossary)
 glossary = {
     "String": "A series of characters.",
     "Variable": "A variable is a location that stores temporary data within a program which can be modified, store and display whenever need.",
@@ -11,5 +12,7 @@ glossary = {
     "Module": "The basic unit of code reusability in Python. A block of code imported by some other code."
     }
 
+# Loop for key:value pair in items in the dictionary
 for var, meaning in glossary.items():
+# For every key:value pair print it in this format
     print(var + " : " + meaning + "\n")

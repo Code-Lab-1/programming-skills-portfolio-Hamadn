@@ -1,6 +1,4 @@
 def func_1(a, b):
-    square = a ** 2
-
     
     def addition(a, b):
         return a + b
