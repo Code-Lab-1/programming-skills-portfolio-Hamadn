@@ -1,5 +1,5 @@
 # Assigning a value to a variable(age)
-age = 1
+age = 18
 
 # Prints the first message if the condition is fulfilled
 if age < 2:

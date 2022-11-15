@@ -13,7 +13,6 @@ invited = invite[3].title()
 print(f"{invited}, you are invited to the dinner.")
 invited = invite[5].title()
 print(f"{invited}, you are invited to the dinner.")
-
 invited = invite[4].title()
 print(f"\nSorry, {invited} can't make it to the dinner.")
 
@@ -57,6 +56,5 @@ print(f"{invited}, you are invited to the dinner.")
 # Removing the two items left in the list
 del(invite[0])
 del(invite[0])
-
 # Printing the empty list
 print(invite)
