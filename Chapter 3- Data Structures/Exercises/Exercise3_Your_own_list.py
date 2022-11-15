@@ -1,6 +1,3 @@
-from cgi import print_directory
-
-
 # Assigning a variable(fav_transport) to the list
 fav_transport = ["car", "motorcycle", "bicycle", "boat", "airplane"]
 
